@@ -9,7 +9,7 @@ from app.api.v1.endpoints import chat, logs, conversations
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    init_db()  # sync call now, no await
+    init_db()
     yield
 
 
@@ -21,7 +21,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.CORS_ORIGINS,
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

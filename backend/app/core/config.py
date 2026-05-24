@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     POSTGRES_HOST: str = "127.0.0.1"
     POSTGRES_PORT: int = 5432
     CORS_ORIGINS: List[str] = ["http://localhost:3000"]
-    USE_SQLITE: bool = True  # Switch to False in Docker
+    USE_SQLITE: bool = True
 
     @property
     def DATABASE_URL(self) -> str:
