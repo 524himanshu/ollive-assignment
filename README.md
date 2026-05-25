@@ -13,6 +13,8 @@ A full-stack LLM chatbot with a lightweight inference logging SDK, ingestion pip
 <img width="1916" height="901" alt="image" src="https://github.com/user-attachments/assets/0b1a6f3c-c35e-4b3f-a921-2e9666102430" />
 
 ---
+<img width="1901" height="916" alt="image" src="https://github.com/user-attachments/assets/152a80f2-38c7-4fe0-8dba-ffb55d75d75f" />
+
 
 ## Stack
 
